@@ -1,0 +1,10 @@
+Section "Device"
+   Identifier "Intel Integrated Driver"
+   Driver      "intel"
+   Option      "TripleBuffer" "true"
+   Option      "TearFree"     "true"
+   Option      "AccelMethod"  "sna"
+   Option      "DRI"          "false"
+   BusID       "PCI:0:2:0"
+EndSection
+

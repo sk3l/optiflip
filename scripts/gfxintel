@@ -1,0 +1,7 @@
+sudo killall Xorg
+sudo modprobe bbswitch
+sudo rmmod nvidia_drm
+sudo rmmod nvidia_modeset
+sudo rmmod nvidia
+sudo tee /proc/acpi/bbswitch <<<OFF
+sudo cp /etc/X11/xorg.conf.intel /etc/X11/xorg.conf

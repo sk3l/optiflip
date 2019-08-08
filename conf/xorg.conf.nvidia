@@ -1,0 +1,11 @@
+Section "Module"
+    Load "modesetting"
+EndSection
+
+Section "Device"
+   Identifier "Nvidia Driver"
+   Driver      "nvidia"
+   BusID       "PCI:1:0:0"
+   Option      "AllowEmptyInitialConfiguration"
+EndSection
+
