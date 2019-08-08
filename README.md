@@ -1,6 +1,6 @@
 # optiflip - Nvidia <~> Intel Hybrid Graphics Helper Scripts
 
-This repo contains some helper scripts and sample X11 configs to assist in manually changing the active graphics card in an Optimus hybrid graphics machine, switching back/forth between Nvidia and Intel. The process relies on the bbswitch kernel module for toggling the active graphics card.
+This repo contains some helper scripts and sample X11 configs to assist in manually changing the active graphics card in an Optimus hybrid graphics machine, switching back/forth between Nvidia and Intel. The process relies on the bbswitch kernel module available for Optimu laptops, used for toggling the active graphics card. With this, you can switch between graphics whilst your laptop is running, without rebooting, only necessitating a bounce of X11.
 
 The inspiration of these tools is [this documentation](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_P1#Hybrid_graphics_with_bbswitch_only) from Arch Linux on the Lenovo Thinkpad P1 laptop.
 
